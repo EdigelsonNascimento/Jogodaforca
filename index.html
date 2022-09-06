@@ -10,7 +10,7 @@
  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
  <link rel="manifest" href="./site.webmanifest">
-   <title>Edigelson Nascimento { Desenvolvedor FullStack }</title> 
+   <title>Edigelson Nascimento { Jogo da Forca }</title> 
   </head>
   
  <header>
@@ -61,18 +61,14 @@ h4 {
    font-size: 20px;
    font-family: 'Montserrat', sans-serif;
  }
- 
- .creditos {
-   position: relative;
-   margin-top: 100px;
- }
-
- .movebotao {
-   margin: 50px;
-   display: flex;
-   justify-content: center;
- }
- 
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.logo {
+  flex: 1;
+}
  @media screen and (max-width: 480px) {
  
     h2, h3 {
@@ -90,24 +86,27 @@ h4 {
       font-size: 12px;
       font-family: 'Montserrat', sans-serif;
   }
-  
+ 
  }
  
 </style>
-   <section> 
+  </header>
+  
+<body>
+  
+ <div class="conteiner">
+   <section class="logo"> 
    <center><main><img src="./logo.png" alt="Edigelson Nascimento" width="200px" height="200px"/></main></center>
    <h1>Edigelson Nascimento</h1><br>
    <h2>👾 • Jogo da Forca em { Construção }</h2>
   </section>
-  </header>
-  
-<body>
+    </div>
     
   </body>
 
-  <footer class="creditos"><!-- Créditos -->
+  <footer><!-- Créditos -->
 <center><img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/></center>
-  <h4>2022 © by Edigelson Nascimento.</h4>
+  <h4>Copyrights © 2022 by Edigelson Nascimento.</h4>
  </footer>
  
  </html>
