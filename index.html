@@ -107,7 +107,9 @@ h4 {
 
   <footer><!-- Créditos -->
 <center><img src="./logo.png" alt="ed" width="30px" height="30px"/></center>
-  <h4>Copyright © 2024 by e7dge.</h4>
+  <h4>Copyright © 2022 - <span id="currentYear"></span> by e7dge.</h4>
  </footer>
- 
+ <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
  </html>
